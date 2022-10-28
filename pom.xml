@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.239.113.236:4000/repository/visa-release/</url>
+	      <url>http://54.236.62.161:5000/repository/cloudpro-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.239.113.236:4000/repository/visa-snapshot/</url>
+	      <url>http://54.236.62.161:5000/repository/cloudpro-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
