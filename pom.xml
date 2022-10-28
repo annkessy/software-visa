@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>visa</finalName>
+		<finalName>cloudPro</finalName>
 		
 		<plugins>
 			<plugin>
