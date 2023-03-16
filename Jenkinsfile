@@ -14,5 +14,9 @@ pipeline {
          sh 'mvn clean package'
        }
      }
+     stage('codequality')
+       steps{
+         sh 'mvn sonar:sonar'
+       }
    }
 }
