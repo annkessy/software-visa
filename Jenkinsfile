@@ -18,5 +18,6 @@ pipeline {
        steps{
          sh 'mvn sonar:sonar'
        }
+     }    
    }
 }
