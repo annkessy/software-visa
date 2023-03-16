@@ -6,7 +6,7 @@ pipeline {
    stages {
      stage('gitClone'){
        steps {
-         git 'https://github.com/Nixonsama/softwear-visa.git'
+         git 'https://github.com/annkessy/software-visa.git'
        }
      }
      stage('mavenBuild'){
