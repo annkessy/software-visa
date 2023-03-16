@@ -6,5 +6,10 @@ pipeline {
          git 'https://github.com/Nixonsama/softwear-visa.git'
        }
      }
+     stage('mavenBuild'){
+       steps {
+         sh 'mvn clean package'
+       }
+     }
    }
 }
